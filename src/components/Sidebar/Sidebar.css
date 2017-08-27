@@ -1,0 +1,17 @@
+.SidebarContainer {
+  padding: 15px 0;
+  margin: 0;
+}
+
+.LinkText {
+  height: 30px;
+  padding-left: 20px;
+}
+
+.LinkText:hover {
+  background-color: #F1F1F1;
+}
+
+.LinkText a{
+  color: #565656;
+}

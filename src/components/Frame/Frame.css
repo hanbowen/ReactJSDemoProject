@@ -1,0 +1,52 @@
+.Header {
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.Left {
+  border-right: 1px solid #EEEEEE;
+  padding: 0;
+  margin: 0;
+}
+
+.FloatLeft {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  z-index: 1000;
+  border-right: 1px solid #EEEEEE;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  background-color: #FFFFFF;
+}
+
+.ToggleBtn {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: #CC181E;
+  border: 2px solid #a80005;
+  color: #a80005;
+  border-radius: 2px;
+  display: none;
+}
+
+.Main {
+  background-color: #F1F1F1;
+}
+
+@media screen and (max-width: 992px) {
+  .Left {
+    display: none;
+  }
+  .ToggleBtn {
+    display: block;
+  }
+
+  .Header {
+    text-align: center;
+  }
+}

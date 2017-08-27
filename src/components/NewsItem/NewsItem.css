@@ -1,0 +1,16 @@
+.NewsItemContainer {
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.NewsItemImage {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.NewsTitle {
+  font-size: 15px;
+  padding: 0 18px;
+}
